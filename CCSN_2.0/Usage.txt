@@ -1,0 +1,10 @@
+The model can be trained by running ./Model/CCSN_model/train.py.
+
+Training results will be automatically saved in ./Model/CCSN_model/ file.
+
+We provide pretrain model for bandgap task in ./Pretrain_model/ file , which can be used to perform transfer learning.
+
+The data smple is in ./Data_sample file. The entire dataset can be dwonload from:
+1. Materials Project: https://next-gen.materialsproject.org/
+2. Materials Cloud: https://www.materialscloud.org/home
+3. Computational 2D Materials Database: https://cmr.fysik.dtu.dk/c2db/c2db.html#c2db
